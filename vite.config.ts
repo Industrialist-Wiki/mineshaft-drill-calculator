@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/mineshaft-drill-calculator",
+  base: "/mineshaft-drill-calculator/",
 });
