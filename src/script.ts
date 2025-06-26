@@ -182,9 +182,10 @@ function recalculateYields() {
   )}MMF/s (average), 3.1MMF/s (active)"`;
 
   function getInnerText(dy: DepthYield): string {
+    const amount = dy.amount * (machineOil ? 1.1 : 1);
     return `${Resources[dy.resourceId]}: ${truncate(
-      dy.amount * efficiency
-    )}u/s (average), ${truncate(dy.amount)}u/s (active)"`;
+      amount * efficiency
+    )}u/s (average), ${truncate(amount)}u/s (active)"`;
   }
 
   Labels.outputLabel1.innerHTML = depth[0] ? getInnerText(depth[0]) : "";
