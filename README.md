@@ -2,7 +2,7 @@ Mineshaft drill calculator app for the [Industrialist Wiki](https://industrialis
 
 # Credits
 
-Backend: [Luna Doggo](https://industrialist.miraheze.org/wiki/User:Luna_Doggo)
+Backend: [MifMaf](https://github.com/MifMaf)
 
 Frontend: [@nextrg](https://github.com/nextrg)
 
