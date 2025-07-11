@@ -157,7 +157,7 @@ function recalculateYields() {
   Labels.cycleLabel.innerHTML = "⏳ Cycle Time: " + simplifyTime(cycleTime);
   Labels.efficiencyLabel.innerHTML = `🔧 Efficiency: <b style='color: rgb(${
     (1 - efficiency) * 255
-  }, ${efficiency * 255}, 0);'>${truncate(efficiency * 100)}%</b>"`;
+  }, ${efficiency * 255}, 0);'>${truncate(efficiency * 100)}%</b>`;
 
   Labels.drillHeadLabel.innerHTML = `<div class='${
     drillHead.className
@@ -173,19 +173,19 @@ function recalculateYields() {
   )}u/s (active)`;
   Labels.acidLabel.innerHTML = `${acid.infoText}: ${truncate(
     acid.rate * efficiency
-  )}L/s (average), ${acid.rate}L/s (active)"`;
+  )}L/s (average), ${acid.rate}L/s (active)`;
   Labels.oilLabel.innerHTML = `${oil.infoText}: ${truncate(
     oil.rate * (1 - replacementTime / cycleTime)
   )}L/s (average), ${oil.rate}L/s (active)`;
   Labels.powerLabel.innerHTML = `⚡ Power: ${truncate(
     3 * efficiency + 0.1
-  )}MMF/s (average), 3.1MMF/s (active)"`;
+  )}MMF/s (average), 3.1MMF/s (active)`;
 
   function getInnerText(dy: DepthYield): string {
     const amount = dy.amount * (machineOil ? 1.1 : 1);
     return `${Resources[dy.resourceId]}: ${truncate(
       amount * efficiency
-    )}u/s (average), ${truncate(amount)}u/s (active)"`;
+    )}u/s (average), ${truncate(amount)}u/s (active)`;
   }
 
   Labels.outputLabel1.innerHTML = depth[0] ? getInnerText(depth[0]) : "";
