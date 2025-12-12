@@ -354,29 +354,29 @@ export const Depths = {
     ],
 
     8200: [
-        { resourceId: "raw-zirconium", amount: 0.7 },
-        { resourceId: "rock", amount: 11.7 },
-        { resourceId: "deep-ef", amount: 3.9 },
+        { resourceId: "raw-zirconium", amount: 0.6 },
+        { resourceId: "rock", amount: 10.7 },
+        { resourceId: "deep-ef", amount: 3.5 },
     ],
     8400: [
-        { resourceId: "raw-zirconium", amount: 1.9 },
+        { resourceId: "raw-zirconium", amount: 1.7 },
         { resourceId: "raw-uranium", amount: 0.2 },
-        { resourceId: "deep-ef", amount: 1.7 },
+        { resourceId: "deep-ef", amount: 1.5 },
     ],
     8600: [
-        { resourceId: "raw-zirconium", amount: 0.6 },
-        { resourceId: "raw-uranium", amount: 2.4 },
-        { resourceId: "raw-iron", amount: 11.6 },
+        { resourceId: "raw-zirconium", amount: 0.5 },
+        { resourceId: "raw-uranium", amount: 2.2 },
+        { resourceId: "raw-iron", amount: 10.5 },
     ],
     8800: [
-        { resourceId: "deep-ef", amount: 4.7 },
-        { resourceId: "raw-uranium", amount: 2.4 },
-        { resourceId: "raw-iron", amount: 14.9 },
+        { resourceId: "deep-ef", amount: 4.2 },
+        { resourceId: "raw-uranium", amount: 2.2 },
+        { resourceId: "raw-iron", amount: 13.5 },
     ],
     9000: [
-        { resourceId: "raw-lead", amount: 9.4 },
-        { resourceId: "raw-zirconium", amount: 0.8 },
-        { resourceId: "raw-iron", amount: 3.9 },
+        { resourceId: "raw-lead", amount: 8.6 },
+        { resourceId: "raw-zirconium", amount: 0.7 },
+        { resourceId: "raw-iron", amount: 3.5 },
     ],
 } as const satisfies Record<number, DepthYield[]>;
 
