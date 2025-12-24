@@ -294,10 +294,6 @@ h1 {
 
 .output-label {
   display: block;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   left: 60%;
   font-family: "Trebuchet MS";
   font-size: 90%;
