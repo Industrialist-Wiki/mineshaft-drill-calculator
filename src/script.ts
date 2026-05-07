@@ -165,7 +165,7 @@ function recalculateYields() {
       oil.rate}L/s (active)`;
   Labels.powerLabel.innerHTML = `⚡ Power: ${
       truncate(
-          (0.1 + 0.5 * travelTime + 2 * lifeTime) /
+          (0.1 * replacementTime + 0.5 * travelTime + 2 * lifeTime) /
           cycleTime)}MMF/s (average), 2.1MMF/s (active)`;
 
   function getInnerText(dy: DepthYield): string {
